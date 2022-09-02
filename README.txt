@@ -1,6 +1,6 @@
-# Music for Hats
+Music for Hats
 
-### Notes:
+Notes:
 - Currently displays properly for the following resolutions (tested):
     - 2560 x 1440
     - 1920 x 1080
@@ -12,13 +12,13 @@
     - 1280 x 720
     *causes the fade-in text events to fire simultaneously
 
-### Completed: 
+Completed: 
 - Landing page
     - Works for desktop resolutions
 - Gallery for most recent artists
 - Fade-in text
 
-### To-do (priority):
+To-do (priority):
 - Establish site-wide color scheme
 - Create layout for artist page
 - Create contact page
