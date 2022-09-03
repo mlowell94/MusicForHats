@@ -310,3 +310,227 @@ h1 {
     width: 10%;
     cursor: pointer;
 }
+
+.picture-one {
+    width: 47%;
+    height: 35vw;
+    background-image: url(images/band.jpg);
+    background-size: cover;
+    background-position-x: 37%;
+}
+
+.picture-two {
+    width: 47%;
+    height: 35vw;
+    background-image: url(images/studio2.jpg);
+    background-size: cover;
+    background-position-x: 37%;
+}
+
+@media only screen and (max-width: 1279px)  {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #231F20;
+        padding: 6px;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .home {
+        display: flex;
+        width: 16%;
+    }
+
+    .logo {
+        width: 100%;
+        transition: width .1s ease;
+    }
+
+    
+    .logo:hover + .home-link {
+        min-width: 141px;
+        transition: min-width .5s ease;
+    }
+
+    .home-link {
+        overflow: hidden;
+        min-width: 0;
+        min-height: fit-content;
+        font-size: 4vw;
+        transition: min-width .2s ease;
+        margin-left: 15%;
+        align-self: center;
+        color: #EAEAEA;
+    }
+
+    ul {
+        list-style: none;
+        width: fit-content;
+        height: fit-content;
+        padding: 0;
+        margin-left: 12px;
+        align-self: center;
+        font-size: 4vw;
+    }
+
+    li {
+        display: inline;
+        padding: 1vw;
+        transition: all .2s ease;
+    }
+
+    li + li {
+        margin-left: 0
+    }
+
+    .headline {
+        height: 50vw;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 2%;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: space-between;
+        background-position-y: 50%;
+        background-size: cover;
+        transition: all .5s ease;
+    }
+
+    .info h1 {
+        color: white;
+        width: fit-content;
+        grid-row: 3/5;
+        grid-column: 1/3;
+        margin-top: -10%;
+        font-size: 5vw;
+        margin-left: 5%;
+    }
+
+    .info p {
+        width: fit-content;
+        height: fit-content;
+        font-size: 5vw;
+        margin-top: -7%;
+        padding: 6px;
+        grid-column: 4/6;
+        grid-row: 3/5;
+        color: wheat;
+        text-shadow: 2px 2px 1px black;
+        background-color: #0000007d;
+        border-radius: 4%;
+        margin-right: 5%;
+        margin-left: 10%;
+    }
+
+    .test {
+        position: relative;
+        border-top: solid white 2px;
+        overflow: hidden;
+    }
+
+    .test + .test {
+        border-left: solid white 2px;
+    }
+
+    span {
+        color: white;
+        position: absolute;
+        top: 15%;
+        width: 0;
+        font-size: 2.5vw;
+        padding-left: 3px;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .headline ~ div {
+        height: fit-content;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    h1 {
+        color: black;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .picture-one {
+        background-image: url(images/band.jpg);
+        width: 100%;
+        height: 25vw;
+        background-size: cover;
+        background-position-y: 50%;
+    }
+
+    .picture-two {
+        background-image: url(images/studio2.jpg);
+        width: 100%;
+        height: 25vw;
+        background-size: cover;
+        background-position-y: 50%;
+    }
+
+    .about-text p {
+        height: fit-content;
+        align-self: center;
+        font-size: calc(2vw + 30.8%);
+        width: 100%;
+        padding: 0;
+        }
+
+    .nuclear-studios-text p {
+        height: fit-content;
+        align-self: center;
+        font-size: calc(2vw + 41.8%);
+        width: 100%;
+        padding: 0;
+        }
+
+    .nuclear-studios-text {
+        align-self: center;
+        font-size: 3.5vw;
+        width: 100%;
+        padding-bottom: 2%;
+        flex-direction: column-reverse;
+    }
+
+    .nuclear-studios h1 {
+        left: 0;
+    }
+
+    #footer {
+        height: fit-content;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #231F20;
+        color: #EAEAEA;
+        padding-top: 11px;
+    }
+
+    .socials {
+        width: 70%;
+        height: 30px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .legal p {
+            text-align: center;
+            font-size: 3vw;
+    }
+}
