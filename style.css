@@ -410,6 +410,10 @@ h1 {
         margin-left: 5%;
     }
 
+    .info {
+        height: 75%;
+    }
+    
     .info p {
         width: fit-content;
         height: fit-content;
